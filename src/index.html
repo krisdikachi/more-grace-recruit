@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="input.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/4b3962bf0e.js" crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+  <script> tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            background: '#144272',
+            background600: '#084689eb',
+
+            white: '#fff',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+  </style>
+</head>
+
+<!-- the body tag -->
+
+<body class="bg-background">
+
+
+  <!-- the parenting div of the navs -->
+  <div class="topnav" id="myTopnav">
+
+
+    <a href="driving.html" id="hello">Driving</a>
+    <a href="contact.html" id="hello">Contact</a>
+    <a href="service.html" id="hello">Services</a>
+
+
+    <a href="warehouse.html" id="hello">Warehousing</a>
+    <a href="JavaScript:void(0);" class="active" id="hello">home</a>
+    <!-- the company's logo -->
+    <img src="img/logo.jpg" alt="" class="logo">
+
+    <img src="img/logo.jpg" alt="" class="logoz">
+    <main class="text-white text-2xl py-10 px-6 uppercase shadow-white" id="dbase"><sub>MORE GRACE RECRUITMENT</sub>
+      <i class="fa-solid fa-bars" onclick="openNav() " id="bar"></i>
+    </main>
+    
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home <i class="fa fa-home" aria-hidden="true"></i></a>
+          <a href="warehouse.html">Warehousing <i class="fa fa-user" aria-hidden="true"></i></a>
+          <a href="driving.html">Driving <i class="fa fa-book" aria-hidden="true"></i></a>
+          <a href="service.html">Service <i class="fa fa-book" aria-hidden="true"></i></a>
+
+          <a href="contact.html">Contact <i class="fa fa-phone" aria-hidden="true"></i></a>
+
+    </div>
+    
+
+
+
+  </div>
+
+
+
+  <p class="text-3xl font-bold tracking-tight text-white mt-36 sm: text-3xl table px-4 py-3 text-center "
+    id="hero-story"> More Grace
+    Recruitment is a parent company and subsidairy of More Grace Health Care Services which is focused
+    on staffing for our client based companies in constrution
+    <br><br> ,warehousing Healthcare and hospitality.
+
+    All of our recruitment specialists are experts in the industry, with 50 years of experience under their belts, so if
+    you want to discover an amazing career opportunity see our ‘Contact Us’ page, and speak to one of our dedicated
+    consultants to find out which job will be best suited to you.
+
+  </p>
+
+
+  <button class="bg-white w-1/2 h-16 rounded-2xl ml-32 sm:w-7 " id="contact-btn"><a
+      href="https://wa.me/7947236701">CONTACT US <i class="fa-brands fa-whatsapp" id="what"></i></a></button>
+
+
+
+
+
+  <marquee behavior="" direction="">
+    <hr class="bg-white h-2 my-24 ">
+  </marquee>
+
+
+  <h1 class="text-4xl font-bold tracking-tight text-white text-left mb-24  ml-5 " id="serve">SERVICES</h1>
+
+
+  <div class="flex  flex-row sm:block" id="mother">
+    <div class="bg-white h-36 w-36 rounded-full text-center pt-7  " id="bg"><i class="fa-solid fa-comments" id="icon"></i>
+        
+    </div>
+    <div class="mother-h1">
+      <h1 class="text-3xl font-bold tracking-tight text-white mt-0 mx-24" id="heading-service">Individual Attention
+        </h3><br><br>
+        <span class="text-2xl font-light  text-white  mx-4 table px-24 py-2 " id="p">We work on a case to case basis for
+          both our clients <br> and our candidates, so you can be sure that we are <br> providing you a tailored service
+          and an abundance of <br> support from our team.
+
+        </span>
+
+    </div>
+  </div>
+
+
+  <div class="flex  flex-row sm:block" id="mother">
+    <div class="bg-white h-36 w-36 rounded-full text-center pt-7  " id="bg"><i class="fa-solid fa-cloud" id="icon"></i>
+       
+    </div>
+    <div class="mother-h1">
+      <h1 class="text-3xl font-bold tracking-tight text-white mt-0 mx-24" id="heading-service">External CV Database</h3>
+        <br><br>
+        <span class="text-2xl font-light  text-white  mx-4 table px-24 py-2 " id="p">Thanks to our many years in the
+          recruitment industry, <br> we have access to thousands of CVs across the <br> country; which can be
+          professionally screened by our <br> experienced consultants to give you the perfect <br>
+          candidates for the job.
+
+        </span>
+
+    </div>
+  </div>
+
+  <div class="flex  flex-row sm:block lg" id="mother">
+    <div class="bg-white h-36 w-36 rounded-full text-center pt-7  " id="bg"><i class="fa-solid fa-pencil" id="icon"></i>
+    </div>
+    <div class="mother-h1">
+      <h1 class="text-3xl font-bold tracking-tight text-white mt-0 mx-24" id="heading-service">Making Sure it’s the
+        Right Move for you</h3><br><br>
+        <span class="text-2xl font-light  text-white  mx-4 table px-24 py-2 " id="p">We offer a vast range of roles
+          within a variety of <br> industries, whether you’re looking temporary or <br> permanent, logistical or
+          industrial; with everything in <br> between. Let us do the work for you!
+
+        </span>
+
+    </div>
+  </div>
+
+  <div class="flex  flex-row sm:block" id="mother">
+    <div class="bg-white h-36 w-36 rounded-full text-center pt-7  " id="bg"><i class="fa-solid fa-medal" id="icon"></i>
+    </div>
+    <div class="mother-h1">
+      <h1 class="text-3xl font-bold tracking-tight text-white mt-0 mx-24" id="heading-service">The Best In Staff
+        Recruitment In Town</h3><br><br>
+        <span class="text-2xl font-light  text-white  mx-4 table px-24 py-2 " id="p">we have always been the best in
+          staffing for our clients <br> companies in construction ,warehouse ,healthcare <br> and hospitality only with
+          small
+          interest</span>
+
+    </div>
+  </div>
+
+
+
+
+
+  <div class="slideshow-container mt-36">
+
+    <div class="mySlides ">
+      <div class="numbertext">1 / 4</div>
+      <img id="imgs" src="img/main.jpg" style="width:100%">
+   <a href="warehouse.html">   <div class="text  bg-background text-white text-2xl w-fit rounded-md">WAREHOUSING RECRUITMENT</div></a>
+    </div>
+
+    <div class="mySlides ">
+      <div class="numbertext">2 / 4</div>
+      <img id="imgs" src="img/engr.jpg" style="width:100% ;">
+     <div class="text  bg-background text-white text-2xl w-fit rounded-md">ENGINERRING CONSULTANCY</div>
+    </div>
+
+    <div class="mySlides ">
+      <div class="numbertext">3 / 4</div>
+      <img id="imgs" src="img/fork.jpg" style="width:100% ">
+    <a href="driving.html">  <div class="text bg-background text-white text-2xl w-fit rounded-md">TRUCK DRIVING</div></a>
+    </div>
+
+    <div class="mySlides ">
+      <div class="numbertext">4 / 4</div>
+      <img id="imgs" src="img/1.jpg" style="width:100%">
+     <a href="javascript:void0);"> <div class="text bg-background text-white text-2xl w-fit rounded-md">HEALTH JOBS</div></a>
+    </div>
+
+    <a class="prev text-3xl text-white bg-background " onclick="plusSlides(-1)">❮</a>
+    <a class="next text-3xl text-white bg-background" onclick="plusSlides(1)">❯</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+
+  </div>
+
+
+
+  <div class="block mt-10 align-middle " id="list-holder">
+
+
+    <h2 class="text-white font-bold text-2xl  ml-2 ">
+      We have current job vacancies for a range of positions, including but not limited to;</h2>
+
+
+    <ul class="list-disc table text-white font-light leading-loose list-disc  break-words  w-fit ml-5">
+      <li class="list-disc">Driving – Cat. C+E, Cat. C, 7.5 tonne, Vans, Cars, Fork Lift, Shunting</li>
+      <li>Driving – Cat. C+E, Cat. C, 7.5 tonne, Vans, Cars, Fork Lift, Shunting</li>
+      <li>Specialist skills – ADR, HIAB, Multi-drop
+      </li>
+      <li>Non-driving logistics staff – 2nd Men, Warehouse Operatives, Pickers/Packers</li>
+      <li>Industrial – Labourers, Specialised Operatives, Handballers
+      </li>
+      <li>Admin – Office, Accountancy, Compliance</li>
+
+    </ul>
+    <h3 class="text-white text-2xl px-4 font-bold">If these roles aren’t of any interest to you, give us a call <br> and
+      we will
+      see what we can do for you!</h3>
+
+  </div>
+
+
+
+
+  <div class="bg-gray-50 mt-36">
+    <div class="mx-auto max-w-7xl py-12 px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <span class="block">Ready to work ?</span>
+        <span class="block text-background">Start your journey with us today.</span>
+      </h2>
+      <div class="mt-8 block lg:mt-0 lg:flex-shrink-0">
+        <div class="inline-flex rounded-md shadow">
+          <a href="tel:07947330733"
+            class="inline-flex items-center justify-center rounded-md border border-transparent bg-background px-5 py-3 text-base font-medium text-white hover:bg-background600 no-underline">Contact
+            Us &nbsp;&nbsp; <i class="fa-solid fa-message animate-ping"></i></a>
+        </div>
+        <div class="ml-3 inline-flex rounded-md shadow mt-6 ">
+          <a href="mailto:Recruit@moregracerecruitment.com"
+            class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-background hover:bg-background600  no-underline">Mail
+            Us &nbsp;&nbsp; <i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start  text-muted mt-36 " id="footer">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span class="text-white">Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div class="text-white">
+        <a href="" class="me-4 link-secondary text-white">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary text-white">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary text-white">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary text-white">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary text-white">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary text-white">
+          <i class="fab fa-github text-white"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5 text-white">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+
+            <h6 class="text-uppercase fw-bold mb-4">
+
+              <i class="fas fa-gem me-3 text-secondary"></i>MORE GRACE RECRUITMENT AGENCY
+            </h6>
+            <p class="text-2xl leading-loose " id="footer-p">
+              more grace recruitment is a parent company and subsdiary of more grace health care services focused on
+              staffling for our client based comapnies.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" id="links">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="home.html" class="text-reset">Homepage</a>
+            </p>
+            <p>
+              <a href="driving.html" class="text-reset">Driving</a>
+            </p>
+            <p>
+              <a href="warehouse.html" class="text-reset">Warehouse</a>
+            </p>
+           
+            <p>
+              <a href="contact.html" class="text-reset">contact us</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" id="contact-sms">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary animate-ping"></i><a
+                href="https://goo.gl/maps/wDBLS2CNHhk9TZfg7" class="text-white"> 2A August Road Liverpool. L6 4DF</a>
+            </p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary animate-ping"></i>
+              <a href="mailto:Recruit@moregracerecruitment.com" class="text-white"> Email Us</a>
+            </p>
+            <p></p><i class="fas fa-phone me-3 text-secondary animate-ping"></i> <a href="tel:07497330733"
+              class="text-white">Reach Us</a></p>
+            <p><i class="fas fa-print me-3 text-secondary animate-ping"></i> <a href="https://wa.me/7947236701"
+                class="text-white">Message us</a></p>
+
+
+
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4 text-white" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="text-white fw-bold" href="https://wa.me/7947236701">More Grace recruitment</a>
+    </div>
+
+
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+  <script src="script.js"></script>
+
+
+  
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+
+
+
+
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        { pageLanguage: 'en' },
+        'google_translate_element'
+      );
+    }
+  </script>
+
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?
+  cb=googleTranslateElementInit">
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
