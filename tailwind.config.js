@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/index/service/caregiver/contact/driving/warehouse/input/script.{html,js}"],
+  content: ["./src/index/service/caregiver/privacy/contact/driving/warehouse/input/script.{html,js}"],
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
@@ -33,6 +33,9 @@ module.exports = {
       red: colors.red,
       orange: colors.orange,
       amber: colors.amber,
+      skyblue: '#BFEAF5',
+      white: '#fff',
+      darksky: '#91D8E4',
       yellow: colors.yellow,
       lime: colors.lime,
       green: colors.green,
