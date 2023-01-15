@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/index/service/caregiver/privacy/contact/driving/warehouse/input/script.{html,js}"],
+  content: ["./src/index/service/caregiver/privacy/contact/access/slavery/legal/driving/warehouse/input/script.{html,js}"],
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
