@@ -96,7 +96,7 @@ margin-top: 0;
 } */
 
 .topnav a {
-  float: right;
+  /* float: right; */
   text-align: center;
 
   display: flex;
