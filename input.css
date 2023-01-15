@@ -96,7 +96,7 @@ margin-top: 0;
 } */
 
 .topnav a {
-  float: right;
+  /* float: right; */
   text-align: center;
 
   display: block;
@@ -105,6 +105,7 @@ margin-top: 0;
   text-decoration: none;
   font-size: 17px;
   text-transform: capitalize;
+  justify-content: space-evenly;
 }
 
 .topnav a:hover {
