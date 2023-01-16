@@ -82,22 +82,10 @@ margin-top: 0;
 
 }
 
-/* .topnav {
-  position: fixed;
-  height: fit-content;
-  top: 50px;
-  width: 100%;
-  transition: all .3s ease;
-  z-index: 1;
-  box-shadow: 0 1px 25px rgba(0,0,0, .1);
-} */
-/* .topnav.hide {
-  top: -51px;
-} */
 
 .topnav a {
   float: right;
-  text-align: center;
+  /* text-align: center; */
 
   display: flex;
   color: #f2f2f2;
